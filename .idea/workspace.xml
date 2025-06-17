@@ -17,7 +17,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d185781-bc6a-47d3-8195-3ea8e1c9bf9c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ss1/bai10.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cautrucdulieuvagiaithuat/ss2/PTIT_CNTT5_IT201_Session02_Bai02.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cautrucdulieuvagiaithuat/ss2/PTIT_CNTT5_IT201_Session02_Bai03.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cautrucdulieuvagiaithuat/ss2/PTIT_CNTT5_IT201_Session02_Bai04.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cautrucdulieuvagiaithuat/ss2/PTIT_CNTT5_IT201_Session02_Bai05.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cautrucdulieuvagiaithuat/ss2/PTIT_CNTT5_IT201_Session02_Bai06.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cautrucdulieuvagiaithuat/ss2/PTIT_CNTT5_IT201_Session02_Bai07.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai10.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai7.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss1/bai1.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss1/bai1.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss1/bai10.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss1/bai2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss1/bai3.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss1/bai4.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss1/bai5_sapxepmangsonguyen.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss1/bai6.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss1/bai7.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss1/bai8.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss1/bai9.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss1/bau6.c" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,62 +79,85 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;C/C++ File.bai1.c.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.bai6.c.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.bai7.c.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.bai8.c.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "C/C++ File.PTIT_CNTT5_IT201_Session02_Bai06.c.executor": "Run",
+    "C/C++ File.PTIT_CNTT5_IT201_Session02_Bai07.c.executor": "Run",
+    "C/C++ File.bai1.c.executor": "Run",
+    "C/C++ File.bai10.c.executor": "Run",
+    "C/C++ File.bai6.c.executor": "Run",
+    "C/C++ File.bai7.c.executor": "Run",
+    "C/C++ File.bai8.c.executor": "Run",
+    "C/C++ File.ss2bai1.c.executor": "Run",
+    "C/C++ File.ss2bai2.c.executor": "Run",
+    "C/C++ File.ss2bai3.c.executor": "Run",
+    "C/C++ File.ss2bai4.c.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Admin/Desktop/CauTrucDuLieuVaGiaiThuat_Rikkei/cautrucdulieuvagiaithuat/ss2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="C/C++ File.bai7.c">
-    <configuration name="bai1.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CauTrucDuLieuVaGiaiThuat_Rikkei" TARGET_NAME="bai1.c" CONFIG_NAME="bai1.c">
-      <option name="sourceFile" value="ss1\bai1.c" />
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Desktop\CauTrucDuLieuVaGiaiThuat_Rikkei\cautrucdulieuvagiaithuat\ss2" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Desktop\CauTrucDuLieuVaGiaiThuat_Rikkei" />
+    </key>
+  </component>
+  <component name="RunManager" selected="C/C++ File.PTIT_CNTT5_IT201_Session02_Bai07.c">
+    <configuration name="PTIT_CNTT5_IT201_Session02_Bai06.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CauTrucDuLieuVaGiaiThuat_Rikkei" TARGET_NAME="PTIT_CNTT5_IT201_Session02_Bai06.c" CONFIG_NAME="PTIT_CNTT5_IT201_Session02_Bai06.c">
+      <option name="sourceFile" value="cautrucdulieuvagiaithuat\ss2\PTIT_CNTT5_IT201_Session02_Bai06.c" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="bai6.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CauTrucDuLieuVaGiaiThuat_Rikkei" TARGET_NAME="bai6.c" CONFIG_NAME="bai6.c">
-      <option name="sourceFile" value="ss1\bai6.c" />
+    <configuration name="PTIT_CNTT5_IT201_Session02_Bai07.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CauTrucDuLieuVaGiaiThuat_Rikkei" TARGET_NAME="PTIT_CNTT5_IT201_Session02_Bai07.c" CONFIG_NAME="PTIT_CNTT5_IT201_Session02_Bai07.c">
+      <option name="sourceFile" value="cautrucdulieuvagiaithuat\ss2\PTIT_CNTT5_IT201_Session02_Bai07.c" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="bai7.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CauTrucDuLieuVaGiaiThuat_Rikkei" TARGET_NAME="bai7.c" CONFIG_NAME="bai7.c">
-      <option name="sourceFile" value="ss1\bai7.c" />
+    <configuration name="ss2bai2.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CauTrucDuLieuVaGiaiThuat_Rikkei" TARGET_NAME="ss2bai2.c" CONFIG_NAME="ss2bai2.c">
+      <option name="sourceFile" value="cautrucdulieuvagiaithuat\ss2\ss2bai2.c" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="bai8.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CauTrucDuLieuVaGiaiThuat_Rikkei" TARGET_NAME="bai8.c" CONFIG_NAME="bai8.c">
-      <option name="sourceFile" value="ss1\bai8.c" />
+    <configuration name="ss2bai3.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CauTrucDuLieuVaGiaiThuat_Rikkei" TARGET_NAME="ss2bai3.c" CONFIG_NAME="ss2bai3.c">
+      <option name="sourceFile" value="cautrucdulieuvagiaithuat\ss2\ss2bai3.c" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ss2bai4.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CauTrucDuLieuVaGiaiThuat_Rikkei" TARGET_NAME="ss2bai4.c" CONFIG_NAME="ss2bai4.c">
+      <option name="sourceFile" value="cautrucdulieuvagiaithuat\ss2\ss2bai4.c" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="C/C++ File.bai7.c" />
-        <item itemvalue="C/C++ File.bai6.c" />
-        <item itemvalue="C/C++ File.bai8.c" />
-        <item itemvalue="C/C++ File.bai1.c" />
+        <item itemvalue="C/C++ File.PTIT_CNTT5_IT201_Session02_Bai07.c" />
+        <item itemvalue="C/C++ File.PTIT_CNTT5_IT201_Session02_Bai06.c" />
+        <item itemvalue="C/C++ File.ss2bai4.c" />
+        <item itemvalue="C/C++ File.ss2bai3.c" />
+        <item itemvalue="C/C++ File.ss2bai2.c" />
       </list>
     </recent_temporary>
   </component>
@@ -126,7 +171,11 @@
       <workItem from="1750061752494" duration="10112000" />
       <workItem from="1750087669438" duration="4970000" />
       <workItem from="1750092723670" duration="317000" />
-      <workItem from="1750119841145" duration="1454000" />
+      <workItem from="1750119841145" duration="2945000" />
+      <workItem from="1750130055049" duration="399000" />
+      <workItem from="1750130485803" duration="289000" />
+      <workItem from="1750130810274" duration="48000" />
+      <workItem from="1750140311038" duration="13056000" />
     </task>
     <servers />
   </component>

@@ -21,12 +21,12 @@ int main() {
             }
         }
     }else {
-        printf("Khong phai chuoi hoan vi");
+        printf("false");
     }
     if (count == strlen(str1)) {
-        printf("La chuoi hoan vi");
+        printf("True");
     }else {
-        printf("Khong la chuoi hoan vi");
+        printf("false");
     }
     return 0;
 }
