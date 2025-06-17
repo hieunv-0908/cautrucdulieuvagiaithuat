@@ -22,7 +22,7 @@ int main() {
             return 1;
         }
     }
-    for (int i = 0 ; i < memory ; i++) {
+    for (int i = 0 ; i < memory -1; i++) {
         count =0;
         for (int j = i+1; j < memory ; j++) {
             if (memoryPtr[i] + memoryPtr[j] == taget && memoryPtr[i] != memoryPtr[j]) {
