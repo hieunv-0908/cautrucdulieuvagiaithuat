@@ -18,19 +18,15 @@ int main() {
         scanf("%d",&arr[i]);
         while (getchar() != '\n');
     }
-    int number_search;
-    printf("nhap vao phan tu muon tim kiem:");
-    scanf("%d",&number_search);
-    while (getchar() != '\n');
-    for (int i=0; i<len; i++) {
-        if (arr[i] == number_search) {
-            printf("vi tri:%d \n",i);
-            check =1;
+    for (int i = 0; i < len/2; i++) {
+        if (arr[i] == arr[len-i-1]) {
+            printf("cap doi xung (%d,%d),",arr[i],arr[len-i-1]);
+            check = 1;
         }
     }
 
     if (!check) {
-        printf("phan tu khong co trong mang");
+        printf("khong co phan tu doi xung");
     }
 
     free(arr);
