@@ -1,25 +1,24 @@
-//
-// Created by Admin on 17/06/2025.
-//
-#include "../common.h"
+#include <stdio.h>
 
-int count_paths(int i, int j, int row, int col) {
-    if (i == row - 1 && j == col - 1)
-        return 1;  // Đến đích
-    if (i >= row || j >= col)
-        return 0;  // Ra ngoài biên
+int countPaths(int row, int col) {
+    if (row == 1 || col == 1) return 1;
 
-    return count_paths(i + 1, j, row, col) + count_paths(i, j + 1, row, col);
+    return countPaths(row - 1, col) + countPaths(row, col - 1);
 }
-
 
 int main() {
-    int row, col;
-    scanf("%d %d", &row, &col);
-    int result = count_paths(0, 0, row, col);
-    printf("%d\n", result);
-    return 0;
+    int m, n;
+    printf("Nhap so hang: ");
+    scanf("%d", &m);
+    printf("Nhap so cot: ");
+    scanf("%d", &n);
+
+    if (m <= 0 || n <= 0) {
+        printf("Kich thuoc khong hop le.\n");
+        return 1;
+    }
+
+    int result = countPaths(m, n);
+    printf("So duong di tu (0,0) den (%d,%d): %d\n", m - 1, n - 1, result);
     return 0;
 }
-
-
