@@ -19,7 +19,6 @@ int main() {
     int result = count_paths(0, 0, row, col);
     printf("%d\n", result);
     return 0;
-    return 0;
 }
 
 
