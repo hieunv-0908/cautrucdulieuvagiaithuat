@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BackendCodeEditorMiscSettings">
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
+    <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
+    <option name="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue" value="false" type="bool" />
+  </component>
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="36b93ec5-a038-490b-a4db-5541e6b7e933" name="Changes" comment="ss9" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;hieunv-0908&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/hieunv-0908/cautrucdulieuvagiaithuat.git&quot;,
+    &quot;accountId&quot;: &quot;9c319daf-48d8-4b6c-b9d2-c1677e14d175&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/PTIT_CNTT5_IT201_Session10_Bai05.c" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2025" />
+    <option name="minorVersion" value="1.2" />
+    <option name="productBranch" value="Classic" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2ygVMgrVmneFBb6Yx1aHvpVBRLN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "C/C++ File.PTIT_CNTT5_IT201_Session03_Bai01.c.executor": "Run",
+    "C/C++ File.PTIT_CNTT5_IT201_Session03_Bai02.c.executor": "Run",
+    "C/C++ File.PTIT_CNTT5_IT201_Session03_Bai03.c.executor": "Run",
+    "C/C++ File.PTIT_CNTT5_IT201_Session03_Bai04.c.executor": "Run",
+    "C/C++ File.PTIT_CNTT5_IT201_Session03_Bai05.c.executor": "Run",
+    "C/C++ File.PTIT_CNTT5_IT201_Session03_Bai06.c.executor": "Run",
+    "C/C++ File.PTIT_CNTT5_IT201_Session03_Bai07.c.executor": "Debug",
+    "C/C++ File.PTIT_CNTT5_IT201_Session04_Bai03.c.executor": "Run",
+    "C/C++ File.PTIT_CNTT5_IT201_Session04_Bai04.c.executor": "Run",
+    "C/C++ File.PTIT_CNTT5_IT201_Session04_Bai06.c.executor": "Run",
+    "C/C++ File.PTIT_CNTT5_IT201_Session04_Bai07.c.executor": "Run",
+    "C/C++ File.PTIT_CNTT5_IT201_Session04_Bai08.c.executor": "Run",
+    "C/C++ File.PTIT_CNTT5_IT201_Session04_Bai09.c (1).executor": "Debug",
+    "C/C++ File.PTIT_CNTT5_IT201_Session04_Bai09.c.executor": "Run",
+    "C/C++ File.PTIT_CNTT5_IT201_Session04_Bai10.c.executor": "Run",
+    "C/C++ File.PTIT_CNTT5_IT201_Session05_Bai01.c.executor": "Run",
+    "C/C++ File.PTIT_CNTT5_IT201_Session05_Bai02.c.executor": "Run",
+    "C/C++ File.PTIT_CNTT5_IT201_Session05_Bai04.c.executor": "Run",
+    "C/C++ File.PTIT_CNTT5_IT201_Session05_Bai05.c.executor": "Run",
+    "C/C++ File.PTIT_CNTT5_IT201_Session05_Bai06.c.executor": "Run",
+    "C/C++ File.PTIT_CNTT5_IT201_Session05_Bai07.c.executor": "Run",
+    "C/C++ File.PTIT_CNTT5_IT201_Session05_Bai09.c.executor": "Run",
+    "C/C++ File.PTIT_CNTT5_IT201_Session06_Bai01.c.executor": "Run",
+    "C/C++ File.PTIT_CNTT5_IT201_Session06_Bai02.c.executor": "Run",
+    "C/C++ File.PTIT_CNTT5_IT201_Session06_Bai03.c.executor": "Run",
+    "C/C++ File.PTIT_CNTT5_IT201_Session06_Bai04.c.executor": "Run",
+    "C/C++ File.PTIT_CNTT5_IT201_Session07_Bai01.c.executor": "Run",
+    "C/C++ File.PTIT_CNTT5_IT201_Session07_Bai02.c.executor": "Run",
+    "C/C++ File.PTIT_CNTT5_IT201_Session07_Bai04.c.executor": "Run",
+    "C/C++ File.PTIT_CNTT5_IT201_Session07_Bai05.c.executor": "Run",
+    "C/C++ File.PTIT_CNTT5_IT201_Session07_Bai06.c.executor": "Run",
+    "C/C++ File.PTIT_CNTT5_IT201_Session09_Bai02.c.executor": "Run",
+    "C/C++ File.PTIT_CNTT5_IT201_Session09_Bai03.c.executor": "Run",
+    "C/C++ File.PTIT_CNTT5_IT201_Session09_Bai05.c.executor": "Run",
+    "C/C++ File.PTIT_CNTT5_IT201_Session09_Bai08.c.executor": "Run",
+    "C/C++ File.PTIT_CNTT5_IT201_Session10_Bai02.c.executor": "Run",
+    "C/C++ File.PTIT_CNTT5_IT201_Session10_Bai07.c.executor": "Run",
+    "C/C++ File.PTIT_CNTT5_IT201_Session10_Bai10.c.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "#7 on test",
+    "last_opened_file_path": "C:/Users/Admin/Desktop/CauTrucDuLieuVaGiaiThuat_Rikkei/ss9",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Desktop\CauTrucDuLieuVaGiaiThuat_Rikkei\ss9" />
+      <recent name="C:\Users\Admin\Desktop\CauTrucDuLieuVaGiaiThuat_Rikkei\ss7" />
+      <recent name="C:\Users\Admin\Desktop\CauTrucDuLieuVaGiaiThuat_Rikkei\ss4" />
+    </key>
+  </component>
+  <component name="RunManager" selected="C/C++ File.PTIT_CNTT5_IT201_Session10_Bai07.c">
+    <configuration name="PTIT_CNTT5_IT201_Session09_Bai05.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ss9" TARGET_NAME="PTIT_CNTT5_IT201_Session09_Bai05.c" CONFIG_NAME="PTIT_CNTT5_IT201_Session09_Bai05.c">
+      <option name="sourceFile" value="PTIT_CNTT5_IT201_Session09_Bai05.c" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PTIT_CNTT5_IT201_Session09_Bai08.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ss9" TARGET_NAME="PTIT_CNTT5_IT201_Session09_Bai08.c" CONFIG_NAME="PTIT_CNTT5_IT201_Session09_Bai08.c">
+      <option name="sourceFile" value="PTIT_CNTT5_IT201_Session09_Bai08.c" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PTIT_CNTT5_IT201_Session10_Bai02.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ss10" TARGET_NAME="PTIT_CNTT5_IT201_Session10_Bai02.c" CONFIG_NAME="PTIT_CNTT5_IT201_Session10_Bai02.c">
+      <option name="sourceFile" value="PTIT_CNTT5_IT201_Session10_Bai02.c" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PTIT_CNTT5_IT201_Session10_Bai07.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ss10" TARGET_NAME="PTIT_CNTT5_IT201_Session10_Bai07.c" CONFIG_NAME="PTIT_CNTT5_IT201_Session10_Bai07.c">
+      <option name="sourceFile" value="PTIT_CNTT5_IT201_Session10_Bai07.c" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PTIT_CNTT5_IT201_Session10_Bai10.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ss9" TARGET_NAME="PTIT_CNTT5_IT201_Session10_Bai10.c" CONFIG_NAME="PTIT_CNTT5_IT201_Session10_Bai10.c">
+      <option name="sourceFile" value="PTIT_CNTT5_IT201_Session10_Bai10.c" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="C/C++ File.PTIT_CNTT5_IT201_Session10_Bai07.c" />
+        <item itemvalue="C/C++ File.PTIT_CNTT5_IT201_Session09_Bai05.c" />
+        <item itemvalue="C/C++ File.PTIT_CNTT5_IT201_Session10_Bai02.c" />
+        <item itemvalue="C/C++ File.PTIT_CNTT5_IT201_Session10_Bai10.c" />
+        <item itemvalue="C/C++ File.PTIT_CNTT5_IT201_Session09_Bai08.c" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="36b93ec5-a038-490b-a4db-5541e6b7e933" name="Changes" comment="" />
+      <created>1750256160455</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1750256160455</updated>
+      <workItem from="1750256163305" duration="24000" />
+      <workItem from="1750256226438" duration="1185000" />
+      <workItem from="1750257534610" duration="2928000" />
+      <workItem from="1750292332423" duration="2080000" />
+      <workItem from="1750294469312" duration="96000" />
+      <workItem from="1750294629362" duration="67000" />
+      <workItem from="1750294765821" duration="47000" />
+      <workItem from="1750294880508" duration="49000" />
+      <workItem from="1750301388812" duration="4307000" />
+      <workItem from="1750354967925" duration="3592000" />
+      <workItem from="1750364936586" duration="4596000" />
+      <workItem from="1750385228504" duration="36000" />
+      <workItem from="1750385299385" duration="45000" />
+      <workItem from="1750385362665" duration="35000" />
+      <workItem from="1750385444441" duration="91000" />
+      <workItem from="1750481449305" duration="1574000" />
+      <workItem from="1750504641655" duration="18075000" />
+      <workItem from="1750833782429" duration="3368000" />
+      <workItem from="1750837392173" duration="4092000" />
+      <workItem from="1750861956306" duration="4840000" />
+      <workItem from="1750919165797" duration="13755000" />
+      <workItem from="1750985614927" duration="26000" />
+      <workItem from="1750985653649" duration="5657000" />
+      <workItem from="1751202458242" duration="8052000" />
+      <workItem from="1751293788557" duration="6230000" />
+      <workItem from="1751384415715" duration="18000" />
+      <workItem from="1751445755089" duration="1687000" />
+      <workItem from="1751465283930" duration="13179000" />
+      <workItem from="1751522806166" duration="5303000" />
+    </task>
+    <task id="LOCAL-00001" summary="ss9">
+      <option name="closed" value="true" />
+      <created>1751475907700</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1751475907700</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ss9">
+      <option name="closed" value="true" />
+      <created>1751478670207</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1751478670207</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ss9">
+      <option name="closed" value="true" />
+      <created>1751480225737</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1751480225737</updated>
+    </task>
+    <task id="LOCAL-00004" summary="ss9">
+      <option name="closed" value="true" />
+      <created>1751528176280</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1751528176280</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ss9" />
+    <option name="LAST_COMMIT_MESSAGE" value="ss9" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/PTIT_CNTT5_IT201_Session03_Bai04.c</url>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
