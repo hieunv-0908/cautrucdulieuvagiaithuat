@@ -1,80 +1,69 @@
-//
-// Created by Admin on 10/07/2025.
-//
-#include "../common.h"
+#include <stdio.h>
+#include <stdlib.h>
 #define MAX 100
 
-struct Queue{
-    int item[MAX];
+struct Queue {
+    int items[MAX];
     int front;
     int rear;
 };
-/*
-void init(struct Queue *q){
-    q->front = q->rear = NULL;
-}
 
-int empty(struct Queue *q){
-    return q->front == NULL;
-}
-
-void enqueue(struct Queue *q, int data){
-    struct NODE *new_node = (struct NODE *)malloc(sizeof(struct NODE));
-    new_node->data = data;
-    new_node->next = NULL;
-    if(empty(q)){
-        q->front = q->rear = new_node;
-        return;
-    }
-    q->rear->next = new_node;
-    q->rear = new_node;
-}
-*/
-void init(struct Queue *q){
+void init(struct Queue *q) {
     q->front = 0;
     q->rear = -1;
 }
 
-int empty(struct Queue *q){
-    return q->front == -1 || q->rear == -1;
+int empty(struct Queue *q) {
+    return q->front > q->rear;
 }
 
-int is_full(struct Queue *q){
-    return q->rear == MAX-1;
+int is_full(struct Queue *q) {
+    return q->rear == MAX - 1;
 }
 
-void add(struct Queue *q){
-    if(is_full(q)){
+void add(struct Queue *q) {
+    if(is_full(q)) {
         printf("Queue is full\n");
         return;
     }
     int item;
-    printf("Enter item : ");
-    scanf("%d",&item);
+    printf("Enter item: ");
+    scanf("%d", &item);
     q->rear++;
-    q->item[q->rear] = item;
+    q->items[q->rear] = item;
 }
 
-void del(struct Queue *q){
-    if(empty(q)){
+void del(struct Queue *q) {
+    if(empty(q)) {
         printf("Queue is empty\n");
         return;
     }
-    int item = q->item[q->front];
-     q->front++;
+    printf("Deleted item: %d\n", q->items[q->front]);
+    q->front++;
+    if(q->front > q->rear)
+        init(q);
 }
 
-void display(struct Queue *q){
-   for(int i = q->front; i < q->rear; i++){
-        printf("%d ",q->item[i]);
-   }
+void display(struct Queue *q) {
+    if(empty(q)) {
+        printf("Queue is empty\n");
+        return;
+    }
+    for(int i = q->front; i <= q->rear; i++){
+        printf("%d ", q->items[i]);
+    }
+    printf("\n");
 }
 
-int main() {
+int main(){
     struct Queue queue;
     init(&queue);
-    for(int i = 0; i < 5; i++){
+    int n;
+    printf("Enter number of items to add: ");
+    scanf("%d", &n);
+    for(int i = 0; i < n; i++){
         add(&queue);
     }
     display(&queue);
+    return 0;
 }

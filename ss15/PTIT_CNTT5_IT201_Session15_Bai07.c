@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #define MAX 100
 
 struct Queue {
@@ -21,7 +22,7 @@ int is_full(struct Queue *q) {
 }
 
 void add(struct Queue *q) {
-    if (is_full(q)) {
+    if(is_full(q)) {
         printf("Queue is full\n");
         return;
     }
@@ -33,67 +34,51 @@ void add(struct Queue *q) {
 }
 
 void del(struct Queue *q) {
-    if (empty(q)) {
+    if(empty(q)) {
         printf("Queue is empty\n");
         return;
     }
-    int item = q->items[q->front];
-    printf("Deleted item: %d\n", item);
+    printf("Deleted: %d\n", q->items[q->front]);
     q->front++;
+    if(q->front > q->rear)
+        init(q);
 }
 
 void display(struct Queue *q) {
-    if (empty(q)) {
+    if(empty(q)) {
         printf("Queue is empty\n");
         return;
     }
-    printf("Queue contents: ");
-    for (int i = q->front; i <= q->rear; i++) {
+    for(int i = q->front; i <= q->rear; i++){
         printf("%d ", q->items[i]);
     }
     printf("\n");
 }
 
-void pop(struct Queue *q) {
-    if (empty(q)) {
-        printf("Queue is empty\n");
-        return;
-    }
-    printf("Popped item: %d\n", q->items[q->front]);
-    q->front++;
-}
-
-void check(struct Queue *q) {
-    if (q->rear - q->front + 1 < 2) {
-        printf("Not enough items to check.\n");
-        return;
-    }
-
-    int ascending = 1;
-    for (int i = q->front; i < q->rear; i++) {
-        if (q->items[i] + 1 != q->items[i + 1]) {
-            ascending = 0;
-            break;
-        }
-    }
-
-    if (ascending) {
-        printf("true (items are in consecutive order)\n");
-    } else {
-        printf("false (items are NOT in consecutive order)\n");
-    }
-}
-
-int main() {
+int main(){
     struct Queue queue;
     init(&queue);
-
-    for (int i = 0; i < 5; i++) {
-        add(&queue);
-    }
-
-    display(&queue);
-    check(&queue);
-
+    int choice, op;
+    do {
+        printf("\nMenu:\n1. Add\n2. Delete\n3. Display\n4. Exit\nChoose: ");
+        scanf("%d", &choice);
+        switch(choice) {
+            case 1:
+                add(&queue);
+                break;
+            case 2:
+                del(&queue);
+                break;
+            case 3:
+                display(&queue);
+                break;
+            case 4:
+                exit(0);
+            default:
+                printf("Invalid choice\n");
+        }
+        printf("Continue? (1.Yes / 0.No): ");
+        scanf("%d", &op);
+    } while(op == 1);
     return 0;
 }

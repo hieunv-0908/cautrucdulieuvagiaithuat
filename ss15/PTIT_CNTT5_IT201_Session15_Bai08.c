@@ -1,94 +1,83 @@
-#include "../common.h"
-
+#include <stdio.h>
+#include <stdlib.h>
 #define MAX 100
 
-typedef struct {
-    char name[50];
-    int age;
-} Person;
-
-typedef struct {
-    Person items[MAX];
+struct Queue {
+    int items[MAX];
     int front;
     int rear;
-} Queue;
+};
 
-void init(Queue *q) {
+void init(struct Queue *q) {
     q->front = 0;
     q->rear = -1;
 }
 
-int is_empty(Queue *q) {
+int empty(struct Queue *q) {
     return q->front > q->rear;
 }
 
-int is_full(Queue *q) {
+int is_full(struct Queue *q) {
     return q->rear == MAX - 1;
 }
 
-void enqueue(Queue *q, Person p) {
-    if (is_full(q)) {
+void add(struct Queue *q) {
+    if(is_full(q)) {
         printf("Queue is full\n");
         return;
     }
+    int item;
+    printf("Enter item: ");
+    scanf("%d", &item);
     q->rear++;
-    q->items[q->rear] = p;
+    q->items[q->rear] = item;
 }
 
-Person dequeue(Queue *q) {
-    Person nullPerson = {"", -1};
-    if (is_empty(q)) {
-        return nullPerson;
-    }
-    Person p = q->items[q->front];
-    q->front++;
-    return p;
-}
-
-void serve_customer(Queue *queueOld, Queue *queueNormal) {
-    Person p;
-    if (!is_empty(queueOld)) {
-        p = dequeue(queueOld);
-    } else if (!is_empty(queueNormal)) {
-        p = dequeue(queueNormal);
-    } else {
-        printf("No customers in queue.\n");
+void del(struct Queue *q) {
+    if(empty(q)) {
+        printf("Queue is empty\n");
         return;
     }
-    printf("Serving: %s (Age: %d)\n", p.name, p.age);
+    printf("Deleted item: %d\n", q->items[q->front]);
+    q->front++;
+    if(q->front > q->rear)
+        init(q);
 }
 
-int main() {
-    Queue queueOld, queueNormal;
-    init(&queueOld);
-    init(&queueNormal);
+void display(struct Queue *q) {
+    if(empty(q)) {
+        printf("Queue is empty\n");
+        return;
+    }
+    for(int i = q->front; i <= q->rear; i++){
+        printf("%d ", q->items[i]);
+    }
+    printf("\n");
+}
 
+int main(){
+    struct Queue queue;
+    init(&queue);
     int n;
-    printf("Enter number of customers: ");
+    printf("Enter number of operations: ");
     scanf("%d", &n);
-    getchar();
-
-    for (int i = 0; i < n; i++) {
-        Person p;
-        printf("Enter name: ");
-        fgets(p.name, sizeof(p.name), stdin);
-        p.name[strcspn(p.name, "\n")] = '\0';
-
-        printf("Enter age: ");
-        scanf("%d", &p.age);
-        getchar();
-
-        if (p.age >= 60) {
-            enqueue(&queueOld, p);
-        } else {
-            enqueue(&queueNormal, p);
+    while(n--) {
+        int op;
+        printf("\nChoose operation (1.Add, 2.Delete, 3.Display): ");
+        scanf("%d", &op);
+        switch(op) {
+            case 1:
+                add(&queue);
+                break;
+            case 2:
+                del(&queue);
+                break;
+            case 3:
+                display(&queue);
+                break;
+            default:
+                printf("Invalid operation\n");
         }
     }
-
-    printf("\n--- Serving customers ---\n");
-    while (!is_empty(&queueOld) || !is_empty(&queueNormal)) {
-        serve_customer(&queueOld, &queueNormal);
-    }
-
     return 0;
 }
